@@ -1,7 +1,6 @@
 function B = erlangB(rho, m)
 if (fix(m)~=m) | (m <= 0)
     msg = 'm should be positive integer'
-    B = msg
     return
 end
 if rho<0
