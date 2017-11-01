@@ -16,7 +16,7 @@ By equation above, we won't encounter super large factorial anymore. I implement
 At last, in **main.m**, we run all required system parameters to derive the total offered traffic and plot the line chart.
 
 ## Result
-The following form will show you the desired total offered traffic load.\\
+The following form will show you the desired total offered traffic load. </br>
 |  | 1\% | 3\% | 5\% | 10\% | | 1\% | 3\% | 5\% | 10\% |
 | ---- |----| --- | --- | --- | --- | --- | --- | --- | ---
 |1 | 0.0101 | 0.0309 | 0.0526 |0.1111|200 |179.7381|190.8859 | 198.5073 |214.3226 
