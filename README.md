@@ -1,6 +1,6 @@
 # Wireless_Communication_System-HW1-ErlangB_formula
-Implement the Erlang-B formula, and calculate the total offered traffic load for the following system parameters:
-– Channel number: 1\~20, 200\~220
+Implement the Erlang-B formula, and calculate the total offered traffic load for the following system parameters: </br>
+– Channel number: 1\~20, 200\~220 </br>
 – Blocking rate: 1%, 3%, 5%, 10%
 
 ## Implementation
