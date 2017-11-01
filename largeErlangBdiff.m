@@ -1,4 +1,9 @@
 function Bdiff = largeErlangBdiff(rho, m)
+% Bdiff = LARGEERLANGBDIFF(rho, m) 1st derivative of Erlang-B blocking probability with respect to
+% rho (total traffic load in Erlangs)
+% The derivative equation is derived from modified Erlang-B formula in 
+% largeErlangB.m
+% Mainly a helper function for Newton's method used in LARGEERLANGRHO
 if (fix(m)~=m) | (m <= 0)
     msg = 'm should be positive integer'
     return

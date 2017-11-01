@@ -1,4 +1,7 @@
 function B = largeErlangB(rho, m)
+% B: Blocking probability, rho: total offered traffic, m: channel number
+% Rewrite Erlang-B formula to avoid factorial of large channel number. 
+% The continuout product part is implemented in seq_product.m
 if (fix(m)~=m) | (m <= 0)
     msg = 'm should be positive integer'
     return

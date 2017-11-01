@@ -1,4 +1,6 @@
 function rho = largeErlangRho(B, m)
+% Use function in largeErlangBdiff.m and largeErlangB.m to implement
+% Newton's method.
 
 if(fix(m)~=m) | (m <= 0)
     msg = 'm should be positive integer'
